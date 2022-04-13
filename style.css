@@ -103,7 +103,7 @@
     text-align: center;
 }
 /* spacing on all sections */
-#textos, #about, #nosotrxs, #contact, #audio {
+#textos, #about, #nosotrxs, #audio {
     margin-top: 4rem;
     padding-top: 4rem;
 }

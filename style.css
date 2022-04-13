@@ -53,28 +53,30 @@
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
 }
-/* about section image css */
+/* textos section image css */
 .imageAboutPage {
     width: 50%;
     border-radius: 7px;
 }
-/* knowledge, portfolio and contact section css */
-.knowledgeText.card {
+/* about, nosotrxs and contact section css */
+.about.card {
     height: 280px;
     cursor: pointer;
+    width: 100%
   }
-.knowledgeIcon {
+.aboutIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
 }
 .card-title {
     text-align: center;
+    width: 100%
 }
-.card:hover .knowledgeIcon {
+.card:hover .aboutIcon {
     color: #0e8555;
 }
-.knowledgeText:hover {
+.aboutText:hover {
     border: 1px solid #0e8555;
 }
 .card-img-top:hover {
@@ -101,7 +103,7 @@
     text-align: center;
 }
 /* spacing on all sections */
-#about, #knowledge, #portfolio, #contact {
+#textos, #about, #nosotrxs, #contact, #audio {
     margin-top: 4rem;
     padding-top: 4rem;
 }

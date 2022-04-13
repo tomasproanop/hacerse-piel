@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap');
+* {
+    font-family: Noto Sans;
+}
+
+/* me_title animation */
+.anim-typewriter{
+    animation: typewriter 3s steps(44) 1s 1 normal both,
+               blinkTextCursor 400ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 12.3em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: transparent;}
+    to{border-right-color: transparent;}
+  }
+  
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+/* me background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/top-image.jpeg');
+    background-size: cover;
+    position: relative;
+}
+/* text css above me image*/
+.me_title {
+    font-size: 4em;
+    color: #ffffff;
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+}
+
+.me-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+/* about section image css */
+.imageAboutPage {
+    width: 50%;
+    border-radius: 7px;
+}
+/* knowledge, portfolio and contact section css */
+.knowledgeText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.knowledgeIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .knowledgeIcon {
+    color: #0e8555;
+}
+.knowledgeText:hover {
+    border: 1px solid #0e8555;
+}
+.card-img-top:hover {
+        opacity: .5;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-linkedin:hover, .fa-github:hover {
+    color: #0e6d85;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: rgb(225, 224, 224);
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #knowledge, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: black 1px solid; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 255, 255); /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(225, 224, 224); /* Add a dark-grey background on hover */
+  }

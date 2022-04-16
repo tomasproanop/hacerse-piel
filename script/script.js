@@ -12,3 +12,9 @@ window.onscroll = function() {
 }
 
 
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+//         $('.photo').css("opacity", 1- $(window).scrollTop() / 700)
+//     })
+// })
+

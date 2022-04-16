@@ -8,14 +8,14 @@
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
 }
-/* me background image */
+/* top background image */
 .bgimage {
     height: 100vh;
     background: url('images/top.jpg');
     background-size: cover;
     position: relative;
 }
-/* text css above me image*/
+/* text css above top image*/
 .me_title {
     font-size: 4em;
     color: #000000;
@@ -62,7 +62,7 @@
     color: #0e8555;
 }
 .aboutText:hover {
-    border: 1px solid #0e8555;
+    border: 1px solid #000000;
 }
 .card-img-top:hover {
         opacity: .5;
@@ -76,14 +76,14 @@
     cursor: pointer;
 }
 .fa-instagram:hover {
-    color: #666666;
+    color: #ffffff;
 }
 .fab {
     color: #000000;
 }
 /* footer */
 #footer {
-    background-color: rgb(225, 224, 224);
+    background-color: rgb(220, 220, 220);
     text-align: center;
 }
 /* spacing on all sections */
@@ -95,3 +95,13 @@
     padding-bottom: 4rem;
 }
 
+/* .photo {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+} */
+/* .photo:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+} */

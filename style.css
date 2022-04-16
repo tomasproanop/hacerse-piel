@@ -3,7 +3,7 @@
     font-family: Noto Sans;
 }
 
-/* me_title animation */
+/* me_title animation
 .anim-typewriter{
     animation: typewriter 3s steps(44) 1s 1 normal both,
                blinkTextCursor 400ms steps(44) infinite normal;
@@ -15,7 +15,7 @@
   @keyframes blinkTextCursor{
     from{border-right-color: transparent;}
     to{border-right-color: transparent;}
-  }
+  } */
   
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
@@ -25,24 +25,23 @@
 /* me background image */
 .bgimage {
     height: 100vh;
-    background: url('images/top-image.jpeg');
+    background: url('images/top.jpg');
     background-size: cover;
     position: relative;
 }
 /* text css above me image*/
 .me_title {
     font-size: 4em;
-    color: #ffffff;
+    color: #000000;
     position: relative;
     top: 50%;  
-    width: 24em;
+    width: em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);  
 }
 
 .me-text {
@@ -85,7 +84,6 @@
         transition: .3s ease-in-out;
     }
 
-
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -110,23 +108,3 @@
 #contact {
     padding-bottom: 4rem;
 }
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 50px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: black 1px solid; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgb(255, 255, 255); /* Set a background color */
-    color: black; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: rgb(225, 224, 224); /* Add a dark-grey background on hover */
-  }
